@@ -20,8 +20,6 @@ getEmploymentStatus() {
 }
 }
 
-
-
 class Employee extends person{
     constructor(firstname, lastname, dob, phoneNo, isEmployed, role,company){
         super(firstname,lastname,dob,phoneNo,isEmployed);
@@ -38,11 +36,9 @@ employee1= new Employee('John','Doe',1990,1234567890,true,'Software Developer','
 
 employee1.getjobdetails();
 employee1.getDetai1s();
+console.log(employee1.firstname);
 employee1.getEmploymentStatus();
-
 employee2= new Employee('Siva','Shankar',1995,1425475869,true,'UI/UX Developer','Microsoft');
-
 employee2.getDetai1s();
 employee2.getEmploymentStatus();
-
 
