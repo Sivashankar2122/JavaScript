@@ -84,4 +84,4 @@ Promise.race([promise1,promise2,promise3]).then((result)=>{
     console.log('All promises resolved',result);
 }).catch((error)=>{
     console.log('Error:',error);
-})
+}) 
